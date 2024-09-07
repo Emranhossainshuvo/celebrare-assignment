@@ -1,0 +1,43 @@
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-left img{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-icon-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-icon-title{
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.nav-icon-content{
+    margin-top: 0px;
+}
+
+.enroll-now{
+    outline: none;
+    color: green;
+    border: 1px solid green;
+    padding: 8px;
+    border-radius: 40px;
+}
